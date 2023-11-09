@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>str1</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var f = 10
+        let z = 1
+        const zzz=5
+        document.write("Miejsce 1 <br>")
+        for(let x=1;x<=5;x++){
+            z = Math.floor(Math.random()*20)+10
+            document.write(z+" ")
+            console.log(x)
+        } 
+        document.write("<hr>")
+        document.write("Miejsce 2<br>")
+        for(let x=10;x>5;x--) {
+            document.write(x+" ")
+        }
+    </script>
+    <hr>
+    <script type="text/javascript">
+        document.write("Miejsce 3<br>")
+        y=1
+        do{
+            z=Math.floor(Math.random()*150)+10
+            document.write(z+" ")
+            y++
+        }while(y<=10)
+    </script>
+    <hr>
+    <script type="text/javascript">
+        document.write("Miejsce 4<br>")
+        y=1
+        while (y <= 10) {
+            z = Math.floor(Math.random() * 100) + 1
+            document.write(z + " ")
+            y++
+        }
+        </script>
+        <hr>
+        <table border="3" width="200" class="z1">
+            <tr>
+                <th></th><th>f1</th><th>f2</th><th>f3</th>
+            </tr>
+            <script type="text/javascript">
+                let x1=5
+                let x2=10
+                for (let x = x1; x <= x2; x++)
+                {
+                    document.write("<tr>")
+                    document.write("<td>"+x+"</td>")
+                    document.write("<td>"+(Math.pow(x,2))+"</td>")
+                    document.write("<td>3</td>")
+                    document.write("<td>4</td>")
+                    document.write("</tr>")
+                }
+            </script>
+</table>
+</body>
+</html>
